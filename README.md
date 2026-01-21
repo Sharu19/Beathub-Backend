@@ -1,22 +1,20 @@
-# BeatHub Backend
+# BeatHub-Backend
 
-A MongoDB + Mongoose backend schema for a music streaming application.
-
-## Features
-
-- Artist, Album, Song, User, Playlist models
-- Properly linked ObjectId relationships
-- Database seeding script
+Backend schema and data layer for the BeatHub music streaming application.
 
 ## Tech Stack
 
 - Node.js
-- MongoDB Atlas
+- MongoDB
 - Mongoose
 
 ## How to Run
 
-```bash
-npm install
-node scripts/seed.js
-```
+1. Install dependencies  
+   npm install
+
+2. Configure environment variables  
+   Create a `.env` file with your MongoDB URI
+
+3. Seed database  
+   node scripts/seed.js
